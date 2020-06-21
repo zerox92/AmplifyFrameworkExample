@@ -8,9 +8,9 @@
 
 import Foundation
 import UIKit
+import AmplifyPlugins
 import AWSPluginsCore
 import Amplify
-import AWSMobileClient
 
 typealias CognitoCompletionBlock = (Error?) -> Void
 
@@ -93,13 +93,27 @@ class Cognito {
     }
     
     class func showBuiltInUi(navigationController: UINavigationController) {
-        AWSMobileClient.default().showSignIn(navigationController: navigationController, { (signInState, error) in
-            if let signInState = signInState {
-                print("Sign in flow completed: \(signInState)")
-            } else if let error = error {
-                print("error logging in: \(error.localizedDescription)")
+        //Escape Hatch for AWSMobileClient
+        https://docs.amplify.aws/lib/auth/escapehatch/q/platform/ios
+        
+        do {
+            let plugin = try Amplify.Auth.getPlugin(for: "awsCognitoAuthPlugin") as! AWSCognitoAuthPlugin
+            guard case let .awsMobileClient(awsmobileclient) = plugin.getEscapeHatch() else {
+                print("Failed to fetch escape hatch")
+                return
             }
-        })
+            print("Fetched escape hatch - \(awsmobileclient)")
+            awsmobileclient.showSignIn(navigationController: navigationController, { (signInState, error) in
+                if let signInState = signInState {
+                    print("Sign in flow completed: \(signInState)")
+                } else if let error = error {
+                    print("error logging in: \(error.localizedDescription)")
+                }
+            })
+        } catch {
+            print("Error occurred while fetching the escape hatch \(error)")
+        }
+        
     }
     
     class func showHostedUI(navigationController: UINavigationController, completionHandler: @escaping CognitoCompletionBlock) {
@@ -164,21 +178,6 @@ class Cognito {
 
             } catch {
                 print("Fetch auth session failed with error - \(error)")
-            }
-        }
-    }
-}
-
-
-//MARK: Helpers
-extension Cognito {
-    class func initialize(_ completionHandler: @escaping CognitoCompletionBlock) {
-        AWSMobileClient.default().initialize { (userState, error) in
-            if let userState = userState {
-                print("UserState: \(userState.rawValue)")
-                completionHandler(nil)
-            } else {
-                completionHandler(error)
             }
         }
     }
