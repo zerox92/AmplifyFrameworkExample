@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02260CB099674F16939EDE21 /* Pill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643D5D64C3D84F6C8E07AF6D /* Pill.swift */; };
-		0ED16642B7644532A163DC60 /* Caregiver+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C59EF5F9114F5590C7A1DE /* Caregiver+Schema.swift */; };
 		1EAD711E2497B98000F768C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD711D2497B98000F768C6 /* AppDelegate.swift */; };
 		1EAD71202497B98000F768C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD711F2497B98000F768C6 /* SceneDelegate.swift */; };
 		1EAD71222497B98000F768C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAD71212497B98000F768C6 /* ViewController.swift */; };
@@ -18,26 +16,14 @@
 		1EAD71352497BEED00F768C6 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EAD71322497BEED00F768C6 /* awsconfiguration.json */; };
 		1EAD71362497BEED00F768C6 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EAD71332497BEED00F768C6 /* amplifyconfiguration.json */; };
 		1EAD71372497BEED00F768C6 /* amplifytools.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1EAD71342497BEED00F768C6 /* amplifytools.xcconfig */; };
-		1EB8EA272497F18500D7263A /* models in Resources */ = {isa = PBXBuildFile; fileRef = 1EB8EA262497F18500D7263A /* models */; };
 		1EFA2AB7249FBF8300B9505B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA2AB4249FBF8300B9505B /* SignUpViewController.swift */; };
 		1EFA2AB8249FBF8300B9505B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA2AB5249FBF8300B9505B /* LoginViewController.swift */; };
 		1EFA2AB9249FBF8300B9505B /* ConfirmUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA2AB6249FBF8300B9505B /* ConfirmUserViewController.swift */; };
 		1EFA2ABB249FBFA300B9505B /* Cognito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA2ABA249FBFA300B9505B /* Cognito.swift */; };
 		201B0992B093E07954261037 /* Pods_AmplifyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD936599622E1E2DD43BACA9 /* Pods_AmplifyFramework.framework */; };
-		413FAB4F94274574A263E68F /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB3ACE4FCF4535A036354F /* AmplifyModels.swift */; };
-		912018F4B2384D9D959537EC /* ApprovedPills+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144458B6CB9C4FEEAAFBB2EA /* ApprovedPills+Schema.swift */; };
-		9BF7AEF3DECF4FF6AE36615D /* Pill+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EAC87D96A74F52B0D275F6 /* Pill+Schema.swift */; };
-		9E4CA0D1451C43849E6B9B29 /* Dose+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E83DFDDA3CB46B5A943A64C /* Dose+Schema.swift */; };
-		B9F90BCA9BD441B2B819AA6A /* ApprovedPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8D0E45EF7428A802CDCED /* ApprovedPills.swift */; };
-		E057A5EFE9344DA89B7B7EDE /* Caregiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0F376854F47BB8B7E7A1A /* Caregiver.swift */; };
-		EB59A0B84F1940C8AD412AF7 /* Pillrobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DF7998921D495E9CF57643 /* Pillrobot.swift */; };
-		F9E71E1E3F274BD184FB6D73 /* Pillrobot+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C8961F5CDD432697CBB5F7 /* Pillrobot+Schema.swift */; };
-		FBD399F1B04446A9819333CC /* Dose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C5616BABAA4016B603A7AF /* Dose.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05EAC87D96A74F52B0D275F6 /* Pill+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "Pill+Schema.swift"; path = "amplify/generated/models/Pill+Schema.swift"; sourceTree = "<group>"; };
-		144458B6CB9C4FEEAAFBB2EA /* ApprovedPills+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "ApprovedPills+Schema.swift"; path = "amplify/generated/models/ApprovedPills+Schema.swift"; sourceTree = "<group>"; };
 		1EAD711A2497B98000F768C6 /* AmplifyFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmplifyFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EAD711D2497B98000F768C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EAD711F2497B98000F768C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,24 +35,13 @@
 		1EAD71322497BEED00F768C6 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		1EAD71332497BEED00F768C6 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		1EAD71342497BEED00F768C6 /* amplifytools.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
-		1EB8EA262497F18500D7263A /* models */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = models; path = amplify/generated/models; sourceTree = SOURCE_ROOT; };
 		1EFA2AB4249FBF8300B9505B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1EFA2AB5249FBF8300B9505B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1EFA2AB6249FBF8300B9505B /* ConfirmUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmUserViewController.swift; sourceTree = "<group>"; };
 		1EFA2ABA249FBFA300B9505B /* Cognito.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cognito.swift; sourceTree = "<group>"; };
-		21B0F376854F47BB8B7E7A1A /* Caregiver.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Caregiver.swift; path = amplify/generated/models/Caregiver.swift; sourceTree = "<group>"; };
-		32C5616BABAA4016B603A7AF /* Dose.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Dose.swift; path = amplify/generated/models/Dose.swift; sourceTree = "<group>"; };
-		43DF7998921D495E9CF57643 /* Pillrobot.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Pillrobot.swift; path = amplify/generated/models/Pillrobot.swift; sourceTree = "<group>"; };
-		643D5D64C3D84F6C8E07AF6D /* Pill.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = Pill.swift; path = amplify/generated/models/Pill.swift; sourceTree = "<group>"; };
-		66C59EF5F9114F5590C7A1DE /* Caregiver+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "Caregiver+Schema.swift"; path = "amplify/generated/models/Caregiver+Schema.swift"; sourceTree = "<group>"; };
-		78C8961F5CDD432697CBB5F7 /* Pillrobot+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "Pillrobot+Schema.swift"; path = "amplify/generated/models/Pillrobot+Schema.swift"; sourceTree = "<group>"; };
-		7E83DFDDA3CB46B5A943A64C /* Dose+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "Dose+Schema.swift"; path = "amplify/generated/models/Dose+Schema.swift"; sourceTree = "<group>"; };
 		AD936599622E1E2DD43BACA9 /* Pods_AmplifyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmplifyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD95BB411CB7C40B0C5FB11 /* Pods-AmplifyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmplifyFramework.debug.xcconfig"; path = "Target Support Files/Pods-AmplifyFramework/Pods-AmplifyFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		BFB8D0E45EF7428A802CDCED /* ApprovedPills.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = ApprovedPills.swift; path = amplify/generated/models/ApprovedPills.swift; sourceTree = "<group>"; };
 		CEDF3862B792AD204B44F9A3 /* Pods-AmplifyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmplifyFramework.release.xcconfig"; path = "Target Support Files/Pods-AmplifyFramework/Pods-AmplifyFramework.release.xcconfig"; sourceTree = "<group>"; };
-		D5BC2DDC07CF40C481336B1A /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/amplifyframework/schema.graphql; sourceTree = "<group>"; };
-		E4BB3ACE4FCF4535A036354F /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +59,6 @@
 		1EAD71112497B98000F768C6 = {
 			isa = PBXGroup;
 			children = (
-				3B7EE5F130E2437F86156FC1 /* AmplifyConfig */,
-				B3CE6EB979E5485FAC5B0357 /* AmplifyModels */,
 				1EAD711C2497B98000F768C6 /* AmplifyFramework */,
 				1EAD711B2497B98000F768C6 /* Products */,
 				A9238EACD8E24E7EC56F07E1 /* Pods */,
@@ -104,11 +77,10 @@
 		1EAD711C2497B98000F768C6 /* AmplifyFramework */ = {
 			isa = PBXGroup;
 			children = (
-				1EB8EA262497F18500D7263A /* models */,
 				1EAD711D2497B98000F768C6 /* AppDelegate.swift */,
 				1EAD711F2497B98000F768C6 /* SceneDelegate.swift */,
-				1EAD71212497B98000F768C6 /* ViewController.swift */,
 				1EFA2ABA249FBFA300B9505B /* Cognito.swift */,
+				1EAD71212497B98000F768C6 /* ViewController.swift */,
 				1EFA2AB6249FBF8300B9505B /* ConfirmUserViewController.swift */,
 				1EFA2AB5249FBF8300B9505B /* LoginViewController.swift */,
 				1EFA2AB4249FBF8300B9505B /* SignUpViewController.swift */,
@@ -131,15 +103,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3B7EE5F130E2437F86156FC1 /* AmplifyConfig */ = {
-			isa = PBXGroup;
-			children = (
-				D5BC2DDC07CF40C481336B1A /* schema.graphql */,
-			);
-			name = AmplifyConfig;
-			path = .;
-			sourceTree = "<group>";
-		};
 		A9238EACD8E24E7EC56F07E1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,25 +110,6 @@
 				CEDF3862B792AD204B44F9A3 /* Pods-AmplifyFramework.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		B3CE6EB979E5485FAC5B0357 /* AmplifyModels */ = {
-			isa = PBXGroup;
-			children = (
-				E4BB3ACE4FCF4535A036354F /* AmplifyModels.swift */,
-				BFB8D0E45EF7428A802CDCED /* ApprovedPills.swift */,
-				144458B6CB9C4FEEAAFBB2EA /* ApprovedPills+Schema.swift */,
-				21B0F376854F47BB8B7E7A1A /* Caregiver.swift */,
-				66C59EF5F9114F5590C7A1DE /* Caregiver+Schema.swift */,
-				32C5616BABAA4016B603A7AF /* Dose.swift */,
-				7E83DFDDA3CB46B5A943A64C /* Dose+Schema.swift */,
-				643D5D64C3D84F6C8E07AF6D /* Pill.swift */,
-				05EAC87D96A74F52B0D275F6 /* Pill+Schema.swift */,
-				43DF7998921D495E9CF57643 /* Pillrobot.swift */,
-				78C8961F5CDD432697CBB5F7 /* Pillrobot+Schema.swift */,
-			);
-			name = AmplifyModels;
-			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EAD71352497BEED00F768C6 /* awsconfiguration.json in Resources */,
-				1EB8EA272497F18500D7263A /* models in Resources */,
 				1EAD712A2497B98200F768C6 /* LaunchScreen.storyboard in Resources */,
 				1EAD71362497BEED00F768C6 /* amplifyconfiguration.json in Resources */,
 				1EAD71372497BEED00F768C6 /* amplifytools.xcconfig in Resources */,
@@ -308,21 +251,10 @@
 				1EAD71222497B98000F768C6 /* ViewController.swift in Sources */,
 				1EAD711E2497B98000F768C6 /* AppDelegate.swift in Sources */,
 				1EAD71202497B98000F768C6 /* SceneDelegate.swift in Sources */,
-				413FAB4F94274574A263E68F /* AmplifyModels.swift in Sources */,
-				B9F90BCA9BD441B2B819AA6A /* ApprovedPills.swift in Sources */,
-				912018F4B2384D9D959537EC /* ApprovedPills+Schema.swift in Sources */,
-				E057A5EFE9344DA89B7B7EDE /* Caregiver.swift in Sources */,
-				0ED16642B7644532A163DC60 /* Caregiver+Schema.swift in Sources */,
-				FBD399F1B04446A9819333CC /* Dose.swift in Sources */,
 				1EFA2AB7249FBF8300B9505B /* SignUpViewController.swift in Sources */,
-				9E4CA0D1451C43849E6B9B29 /* Dose+Schema.swift in Sources */,
-				02260CB099674F16939EDE21 /* Pill.swift in Sources */,
 				1EFA2AB9249FBF8300B9505B /* ConfirmUserViewController.swift in Sources */,
 				1EFA2ABB249FBFA300B9505B /* Cognito.swift in Sources */,
 				1EFA2AB8249FBF8300B9505B /* LoginViewController.swift in Sources */,
-				9BF7AEF3DECF4FF6AE36615D /* Pill+Schema.swift in Sources */,
-				EB59A0B84F1940C8AD412AF7 /* Pillrobot.swift in Sources */,
-				F9E71E1E3F274BD184FB6D73 /* Pillrobot+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

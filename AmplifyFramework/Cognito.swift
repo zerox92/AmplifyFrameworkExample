@@ -120,9 +120,10 @@ class Cognito {
         _ = Amplify.Auth.signOut(listener: { (result) in
             switch result {
             case .success():
-                print("Sigged out successfully")
+                completionHandler(nil)
             case .failure(let authError):
                 print("Error: \(authError.debugDescription)")
+                completionHandler(authError)
             }
         })
     }
