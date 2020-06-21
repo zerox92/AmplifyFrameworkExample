@@ -32,9 +32,9 @@
 		1EAD71262497B98200F768C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EAD71292497B98200F768C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EAD712B2497B98200F768C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EAD71322497BEED00F768C6 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
-		1EAD71332497BEED00F768C6 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
-		1EAD71342497BEED00F768C6 /* amplifytools.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		1EAD71322497BEED00F768C6 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = ../../awsconfiguration.json; sourceTree = "<group>"; };
+		1EAD71332497BEED00F768C6 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = amplifyconfiguration.json; path = ../../amplifyconfiguration.json; sourceTree = "<group>"; };
+		1EAD71342497BEED00F768C6 /* amplifytools.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = amplifytools.xcconfig; path = ../../amplifytools.xcconfig; sourceTree = "<group>"; };
 		1EFA2AB4249FBF8300B9505B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1EFA2AB5249FBF8300B9505B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1EFA2AB6249FBF8300B9505B /* ConfirmUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmUserViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +77,7 @@
 		1EAD711C2497B98000F768C6 /* AmplifyFramework */ = {
 			isa = PBXGroup;
 			children = (
+				1EFA2ABC24A0196B00B9505B /* Amplify Config */,
 				1EAD711D2497B98000F768C6 /* AppDelegate.swift */,
 				1EAD711F2497B98000F768C6 /* SceneDelegate.swift */,
 				1EFA2ABA249FBFA300B9505B /* Cognito.swift */,
@@ -92,12 +93,19 @@
 			path = AmplifyFramework;
 			sourceTree = "<group>";
 		};
+		1EFA2ABC24A0196B00B9505B /* Amplify Config */ = {
+			isa = PBXGroup;
+			children = (
+				1EAD71342497BEED00F768C6 /* amplifytools.xcconfig */,
+				1EAD71322497BEED00F768C6 /* awsconfiguration.json */,
+				1EAD71332497BEED00F768C6 /* amplifyconfiguration.json */,
+			);
+			path = "Amplify Config";
+			sourceTree = "<group>";
+		};
 		299388413D33630917E9F208 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1EAD71332497BEED00F768C6 /* amplifyconfiguration.json */,
-				1EAD71342497BEED00F768C6 /* amplifytools.xcconfig */,
-				1EAD71322497BEED00F768C6 /* awsconfiguration.json */,
 				AD936599622E1E2DD43BACA9 /* Pods_AmplifyFramework.framework */,
 			);
 			name = Frameworks;
