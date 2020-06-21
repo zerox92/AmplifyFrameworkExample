@@ -2,7 +2,7 @@
 //  SignIn.swift
 //  amplify-cognito-ios-sample
 //
-//  Created by Valdivieso Gutierrez, Pedro Luis on 1/7/20.
+//  Created by Anjum, Zeeshan on 15/06/2020.
 //  Copyright © 2020 Amazon Web Services. All rights reserved.
 //
 
