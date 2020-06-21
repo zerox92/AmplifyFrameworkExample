@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9EF0979B-FA51-4D9B-8412-13F70132D295"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12A6521B-501C-4180-B063-DCFBCD13B409"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AmplifyPlugins/AmplifyPlugins/DataStore/AWSDataStoreCategoryPlugin/AWSDataStorePlugin.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "configure(using:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95917167-901A-4596-91EF-89ECC85FDAA8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmplifyFramework/Cognito.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "signIn(with:password:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3947D5EA-2FC2-4CA5-B664-72BE467D69B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmplifyFramework/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "globalSignOutPressed(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3947D5EA-2FC2-4CA5-B664-72BE467D69B1 - 53f221bca16224ae"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmplifyFramework.ViewController.globalSignOutPressed(Any) -&gt; ()"
+                  moduleName = "AmplifyFramework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjuz/Documents/Development/iOS/AmplifyFramework/AmplifyFramework/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "341">
+               </Location>
+               <Location
+                  uuid = "3947D5EA-2FC2-4CA5-B664-72BE467D69B1 - 565addc9e7af1a55"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmplifyFramework.ViewController.globalSignOutPressed(Any) -&gt; ()"
+                  moduleName = "AmplifyFramework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anjuz/Documents/Development/iOS/AmplifyFramework/AmplifyFramework/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
