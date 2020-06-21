@@ -10,8 +10,6 @@ Amplify framework auth category example
 
 Please note that myapp:// is setup by default for the Hosted UI callback URL in the Info.plist file. Edit this value as necessary.
 
-![APP UI](./README_IMAGES/UI.png?raw=true "UI")
-
 #### amplifytools.xcconfig
 
 ~~~
@@ -102,3 +100,5 @@ envName=amplify
 }
 
 ~~~
+
+![APP UI](./README_IMAGES/UI.png?raw=true "UI")
