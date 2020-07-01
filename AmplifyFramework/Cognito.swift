@@ -11,6 +11,7 @@ import UIKit
 import AmplifyPlugins
 import AWSPluginsCore
 import Amplify
+import AWSMobileClient
 
 typealias CognitoCompletionBlock = (Error?) -> Void
 
@@ -90,6 +91,7 @@ class Cognito {
             }
         })
         
+        AWSMobileClient.default().signOut()
     }
     
     class func showBuiltInUi(navigationController: UINavigationController) {
